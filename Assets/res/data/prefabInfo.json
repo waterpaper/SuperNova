@@ -1,0 +1,90 @@
+{
+  "MonsterInfos": [
+    {
+      "MonsterID": 101,
+      "Path": "Seed"
+    },
+    {
+      "MonsterID": 102,
+      "Path": "Seed_Evol"
+    },
+    {
+      "MonsterID": 103,
+      "Path": "Bat"
+    },
+    {
+      "MonsterID": 104,
+      "Path": "Mushroom"
+    },
+    {
+      "MonsterID": 105,
+      "Path": "Mushroom_Evol"
+    },
+    {
+      "MonsterID": 106,
+      "Path": "Egg"
+    },
+    {
+      "MonsterID": 107,
+      "Path": "Egg_Evol"
+    },
+    {
+      "MonsterID": 301,
+      "Path": "Seed_Boss"
+    },
+    {
+      "MonsterID": 302,
+      "Path": "Bat_Boss"
+    },
+    {
+      "MonsterID": 303,
+      "Path": "Mushroom_Boss"
+    },
+    {
+      "MonsterID": 304,
+      "Path": "Egg_Boss"
+    }
+  ],
+  "MapInfos": [
+    {
+      "MapID": 10001,
+      "Path": "GrassLand",
+      "Monsters": [
+        101, 102
+      ],
+      "Boss": 301
+    },
+    {
+      "MapID": 10002,
+      "Path": "Desert",
+      "Monsters": [
+        103, 104
+      ],
+      "Boss": 302
+    },
+    {
+      "MapID": 10003,
+      "Path": "Forest",
+      "Monsters": [
+        105, 106
+      ],
+      "Boss": 303
+    },
+    {
+      "MapID": 10004,
+      "Path": "GrassLand_B",
+      "Monsters": [
+        103, 104
+      ],
+      "Boss": 302
+    },
+    {
+      "MapID": 10005,
+      "Path": "Ice",
+      "Monsters": [
+        107, 108
+      ],
+      "Boss": 304
+    }
+  ]
+}

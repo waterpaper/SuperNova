@@ -1,0 +1,240 @@
+{
+  "ItemInfos": [
+    {
+      "ItemID": 101,
+      "Name": "검",
+      "Description": "길다가 주운 검",
+      "ItemType": "Weapon",
+      "Price":  10,
+      "Stat": {
+        "Attack": 10,
+        "AttackSpeed": 0
+      },
+      "Skills": [ 101 ],
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.5
+    },
+    {
+      "ItemID": 102,
+      "Name": "롱소드",
+      "Description": "당신 키보단 큰 검",
+      "ItemType": "Weapon",
+      "Price":  20,
+      "Stat": {
+        "Attack": 20,
+        "AttackSpeed": 0.1
+      },
+      "Skills": [ 102 ], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.2
+    },
+    {
+      "ItemID": 103,
+      "Name": "그레이트 소드",
+      "Description": "이제 한 손으로 들기 힘들 것입니다.",
+      "ItemType": "Weapon",
+      "Price":  30,
+      "Stat": {
+        "Attack": 30,
+        "AttackSpeed": 0.1
+      },
+      "Skills": [ 103, 301 ], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.1
+    },
+    {
+      "ItemID": 104,
+      "Name": "무엇이든 뚫는 검",
+      "Description": "水滴穿石",
+      "ItemType": "Weapon",
+      "Price":  100,
+      "Stat": {
+        "Attack": 50,
+        "AttackSpeed": 0.2
+      },
+      "Skills": [ 104, 501 ], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.01
+    },
+    {
+      "ItemID": 301,
+      "Name": "천 갑옷",
+      "Description": "낡은 천으로 만든 거적대기입니다.",
+      "ItemType": "Armor",
+      "Price": 10,
+      "Stat": {
+        "Attack": 5,
+        "AttackSpeed": 0
+      },
+      "Skills": [], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.5
+    },
+    {
+      "ItemID": 302,
+      "Name": "나무 갑옷",
+      "Description": "나무로 만든 꽤나 튼튼한 갑옷입니다. 하지만 너무 무겁네요.",
+      "ItemType": "Armor",
+      "Price": 20,
+      "Stat": {
+        "Attack": 10,
+        "AttackSpeed": 0
+      },
+      "Skills": [], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.2
+    },
+    {
+      "ItemID": 303,
+      "Name": "철 갑옷",
+      "Description": "철로 만든 갑옷입니다. 마법이 깃들어 있습니다.",
+      "ItemType": "Armor",
+      "Price": 70,
+      "Stat": {
+        "Attack": 10,
+        "AttackSpeed": 0.1
+      },
+      "Skills": [], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.1
+    },
+    {
+      "ItemID": 501,
+      "Name": "끈 반지",
+      "Description": "풀로 만들어진 반지입니다. 토끼풀 같은데요?",
+      "ItemType": "Accessory",
+      "Price": 50,
+      "Stat": {
+        "Attack": 0,
+        "AttackSpeed": 0
+      },
+      "Skills": [ 1001 ], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.1
+    }, 
+    {
+      "ItemID": 502,
+      "Name": "구리 반지",
+      "Description": "전선을 훔쳐 만든 구리 반지. 전도율이 좋습니다.",
+      "ItemType": "Accessory",
+      "Price": 50,
+      "Stat": {
+        "Attack": 0,
+        "AttackSpeed": 0
+      },
+      "Skills": [ 1002 ], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.08
+    }, 
+    {
+      "ItemID": 503,
+      "Name": "은 반지",
+      "Description": "뭘로 만든지 이제 다 알 거 아니에요?",
+      "ItemType": "Accessory",
+      "Price": 100,
+      "Stat": {
+        "Attack": 10,
+        "AttackSpeed": 0
+      },
+      "Skills": [ 1003 ], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.06
+    }, 
+    {
+      "ItemID": 504,
+      "Name": "금 반지",
+      "Description": "[금은 언제나 옳다]",
+      "ItemType": "Accessory",
+      "Price": 500,
+      "Stat": {
+        "Attack": 0,
+        "AttackSpeed": 0
+      },
+      "Skills": [ 1004 ], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.04
+    }, 
+    {
+      "ItemID": 505,
+      "Name": "루비 반지",
+      "Description": ".",
+      "ItemType": "Accessory",
+      "Price": 300,
+      "Stat": {
+        "Attack": 50,
+        "AttackSpeed": 0.1
+      },
+      "Skills": [ 1005 ], 
+      "UpgradeStat": {
+        "Attack": 1
+      }, 
+      "DropRate": 0.02
+    }
+  ],
+  "SkillInfos": [
+    {
+      "SkillID": 101,
+      "Name": "내려치기",
+      "Description": "상대를 강하게 내려쳐 {0}의 피해를 줍니다.",
+      "SkillType": "Active",
+      "Cooltime": 6.0
+    },
+    {
+      "SkillID": 102,
+      "Name": "찌르기",
+      "Description": "상대를 강하게 찔러 {0}의 피해를 줍니다.",
+      "SkillType": "Active",
+      "Cooltime": 6.0
+    }, 
+    {
+      "SkillID": 103,
+      "Name": "양손 내려찍기",
+      "Description": "양손으로 검을 내려찍어 {0}의 피해를 줍니다.",
+      "SkillType": "Active",
+      "Cooltime": 6.0
+    }, 
+    {
+      "SkillID": 104,
+      "Name": "피 갈퀴",
+      "Description": "전방에 피로 싸다구를 후리칩니다.",
+      "SkillType": "Active",
+      "Cooltime": 6.0
+    }, 
+    {
+      "SkillID": 301,
+      "Name": "메테오",
+      "Description": "전방에 운석이 떨어져.....",
+      "SkillType": "Active",
+      "Cooltime": 6.0
+    }, 
+    {
+      "SkillID": 501,
+      "Name": "공격력 업",
+      "Description": "포효를 외쳐 잠시동안 공격력을 상승 시킵니다.",
+      "SkillType": "Active",
+      "Cooltime": 6.0
+    }
+  ]
+}
